@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Yerel Linux Bilgi Toplama & Yetki Yükseltme Betiği
-# Tam Türkçe versiyon - Tüm fonksiyonlar eksiksiz
+# Tam Türkçe versiyon
 # @vedattascier
 
 version="sürüm 2.0"
