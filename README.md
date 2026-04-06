@@ -29,9 +29,9 @@ Bu script, Linux sistemlerde yerel bilgi toplama ve potansiyel yetki yükseltme 
 ### İndirme
 
 ```bash
-git clone https://github.com/vedattascier/yetki_yukseltme.git
-cd yetki-yukseltme-script
-chmod +x yetki_yukseltme.sh
+git clone https://github.com/vedattascier/linux-yetki-yukseltme.git
+cd linux-yetki-yukseltme
+chmod +x linux-yetki-yukseltme.sh
 ```
 
 ## 📖 Kullanım
@@ -39,7 +39,7 @@ chmod +x yetki_yukseltme.sh
 ### Temel Kullanım
 
 ```bash
-./yetki_yukseltme.sh
+./linux-yetki-yukseltme.sh
 ```
 
 ### Seçenekler
@@ -67,22 +67,22 @@ chmod +x yetki_yukseltme.sh
 
 ```bash
 # Normal tarama
-./yetki_yukseltme.sh
+./linux-yetki-yukseltme.sh
 
 # Hızlı tarama + sadece özet
-./yetki_yukseltme.sh -f -q
+./linux-yetki-yukseltme.sh -f -q
 
 # Ayrıntılı tarama + JSON çıktısı
-./yetki_yukseltme.sh -t -j | tee rapor.json
+./linux-yetki-yukseltme.sh -t -j | tee rapor.json
 
 # Anahtar kelime arama
-./yetki_yukseltme.sh -k "password"
+./linux-yetki-yukseltme.sh -k "password"
 
 # Dışa aktarma
-./yetki_yukseltme.sh -e ./export-dizini
+./linux-yetki-yukseltme.sh -e ./export-dizini
 
 # Özel rapor dosyası
-./yetki_yukseltme.sh -r ./benim-raporum.txt
+./linux-yetki-yukseltme.sh -r ./benim-raporum.txt
 ```
 
 ## 🔍 Taranan Alanlar
@@ -194,5 +194,3 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 ---
 
 **Versiyon:** 2.0
-**Son Güncelleme:** 2024</content>
-<parameter name="filePath">c:\Users\vedat\OneDrive\Masaüstü\README.md
